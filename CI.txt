@@ -1,0 +1,11 @@
+Reflection on How CI Improves Software Development:
+
+ -Continuous Integration (CI) enhances software development by promoting collaboration,
+ automation, anrapid feedback. By frequently integrating code,
+ developers catch and fix issues early, reducing defects and saving time.
+ CI automates tasks like testing and building, ensuring new code doesn’t break existing 
+ functionality. This rapid feedback loop improves code quality and stability. It also encourages
+ better teamwork, allowing developers to merge changes frequently and resolve conflicts early.
+ CI enforces coding standards and maintains a consistent workflow, creating a solid foundation for 
+ faster, more reliable releases. Overall, CI makes the development process more efficient, agile,
+ and aligned with delivering high-quality software.
