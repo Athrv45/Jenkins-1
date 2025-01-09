@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone') {
+            steps {
+                git 'https://github.com/Athrv45/practice.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'echo Building the project...'
+            }
+        }
+
+        stage('Run Script') {
+            steps {
+                bat 'C:\\Python313\\python.exe C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\AutomationWithPython\\hello.py'
+            }
+        }
+    }
+}
